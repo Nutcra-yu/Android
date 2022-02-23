@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android移动应用基础教程</string>
+    <string name="TView1">文本框1</string>
+    <string name="EText1">编辑框1 用户名</string>
+    <string name="EText2">编辑框2 密码</string>
+    <string name="btn1">按钮1</string>
+    <string name="RGroup_TView">您的选项是：</string>
+</resources>
