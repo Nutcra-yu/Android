@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidPractice</string>
+    <string name="TView1">TView1</string>
+    <string name="EText1">EText1</string>
+    <string name="EText2">EText2</string>
+    <string name="RGroup_TView">RGroup_TView</string>
+
+</resources>

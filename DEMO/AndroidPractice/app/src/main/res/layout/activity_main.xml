@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/TView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TView1"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/EText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EText1"
+        android:textColorHint="@color/purple_500"
+        android:textSize="20sp"
+        android:maxLines="2"/>
+    <EditText
+        android:id="@+id/EText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EText2"
+        android:textColorHint="@color/purple_200"
+        android:password="true"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/RGroup1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/RGroup_TView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/RGroup_TView"
+            android:textSize="22sp" />
+        <RadioButton
+            android:id="@+id/RBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="男"
+            android:textSize="10sp"/>
+        <RadioButton
+            android:id="@+id/RBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="女"
+            android:textSize="10sp"/>
+        <RadioButton
+            android:id="@+id/RBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="其他"
+            android:textSize="10sp"/>
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="您的选择是:"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/CBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="男"
+            android:textSize="10sp"/>
+        <CheckBox
+            android:id="@+id/CBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="女"
+            android:textSize="10sp"/>
+        <CheckBox
+            android:id="@+id/CBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="其他"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/CBox_TView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的选择为："
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_test"
+        />
+
+
+    <Button
+        android:id="@+id/star"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/stat_hollow"/>
+</LinearLayout>

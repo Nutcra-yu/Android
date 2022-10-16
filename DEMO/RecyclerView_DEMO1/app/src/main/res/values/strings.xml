@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerView_DEMO</string>
+    <string name="Button">按钮</string>
+    <string name="text1">啊哈哈哈哈</string>
+    <string name="text2">鸡汤来喽</string>
+    <string name="text3">喝啊怎么不喝</string>
+</resources>
