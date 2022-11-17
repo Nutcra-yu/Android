@@ -32,14 +32,14 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        this.dispatchTouchEvent()/*activity*/
-//        ViewGroup viewGroup = new ViewGroup() {
-//            @Override
-//            protected void onLayout(boolean changed, int l, int t, int r, int b) {
-//
-//            }
-//        }
-//        viewGroup.dispatchTouchEvent();
+        this.dispatchTouchEvent()/*activity*/
+        ViewGroup viewGroup = new ViewGroup() {
+            @Override
+            protected void onLayout(boolean changed, int l, int t, int r, int b) {
+
+            }
+        }
+        viewGroup.dispatchTouchEvent();
 
         mCustomView1 = findViewById(R.id.CustomView1);
         mCustomView2 = findViewById(R.id.CustomView2);
