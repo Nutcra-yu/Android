@@ -10,35 +10,40 @@ public class Crime {
     private Date mDate;
     private boolean mSolved;
 
-    public Crime()
-    {
+    public Crime() {
         mId = UUID.randomUUID();
         mDate = new Date();
     }
 
-//mId
     public UUID getId() {
         return mId;
     }
-//mTitle
+
+    public void seId(UUID mId) {
+        this.mId = mId;
+    }
+
     public String getTitle() {
         return mTitle;
     }
-    public void setTitle(String title) {
-        mTitle = title;
+
+    public void setTitle(String mTitle) {
+        this.mTitle = mTitle;
     }
-//mDate
+
     public Date getDate() {
         return mDate;
     }
-    public void setDate(Date date) {
-        mDate = date;
+
+    public void setDate(Date mDate) {
+        this.mDate = mDate;
     }
-//mSolved
+
     public boolean isSolved() {
         return mSolved;
     }
-    public void setSolved(boolean solved) {
-        mSolved = solved;
+
+    public void setSolved(boolean mSolved) {
+        this.mSolved = mSolved;
     }
 }
